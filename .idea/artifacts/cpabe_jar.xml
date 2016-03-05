@@ -1,11 +1,11 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="cpabe:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/cpabe_jar</output-path>
-    <root id="archive" name="cpabe1.jar">
+    <root id="archive" name="cpabe.jar">
       <element id="module-output" name="cpabe" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../bswabe/out/artifacts/bswabe_jar/bswabe.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$USER_HOME$/Desktop/jpbc-api-1.2.1.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$USER_HOME$/Desktop/jpbc-plaf-1.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../bswabe/out/artifacts/bswabe_jar/bswabe.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
