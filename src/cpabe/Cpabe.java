@@ -114,11 +114,12 @@ public class Cpabe {
 		prv = SerializeUtils.unserializeBswabePrv(pub, prv_byte);
 
 		BswabeElementBoolean beb = Bswabe.dec(pub, prv, cph);
-		System.err.println("e = " + beb.e.toString());
+		System.out.println("e = " + beb.e.toString());
 		if (beb.b) {
 			plt = AESCoder.decrypt(beb.e.toBytes(), aesBuf);
 			Common.spitFile(decfile, plt);
 		} else {
+			System.err.println("Something went wrong");
 			System.exit(0);
 		}
 	}
