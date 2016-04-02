@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="bswabe">
+  <library name="jpbc-plaf-1.2.1">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/bswabe.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jpbc-plaf-1.2.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

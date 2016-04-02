@@ -16,11 +16,6 @@ import bswabe.SerializeUtils;
 
 public class Cpabe {
 
-	/**
-	 * @param args
-	 * @author Junwei Wang(wakemecn@gmail.com)
-	 */
-
 	public void setup(String pubfile, String mskfile) throws IOException,
 			ClassNotFoundException {
 		byte[] pub_byte, msk_byte;
@@ -77,10 +72,10 @@ public class Cpabe {
 		keyCph = Bswabe.enc(pub, policy);
 		cph = keyCph.cph;
 		m = keyCph.key;
-		System.err.println("m = " + m.toString());
+		System.out.println("m = " + m.toString());
 
 		if (cph == null) {
-			System.out.println("Error happed in enc");
+			System.err.println("Error happed in enc");
 			System.exit(0);
 		}
 

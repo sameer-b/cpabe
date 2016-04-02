@@ -25,5 +25,8 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="bswabe" level="project" />
+    <orderEntry type="library" name="jpbc-api-1.2.1" level="project" />
+    <orderEntry type="library" name="jpbc-plaf-1.2.1" level="project" />
   </component>
 </module>
